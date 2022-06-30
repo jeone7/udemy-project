@@ -1,0 +1,84 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0px;
+}
+
+#page-logo a {
+    padding: 10px;
+    font-family: "Oleo Script", sans-serif;
+    color: rgb(245, 243, 160);
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+header {
+    padding: 15px 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    width: 250px;
+    margin: 10px;
+    padding: 0px;
+    justify-content: flex-end;
+}
+
+header li {
+    margin-left: 20px;
+    width: 100px;
+    text-align: right;
+}
+   
+header a {
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
+    border-radius: 6px;
+}
+
+header a:hover {
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 251, 0);
+}
+
+li {
+    display: list-item;
+}
+
+footer {
+    background: linear-gradient(70deg, rgb(24,24,24), rgb(25,29,29));
+    padding: 36px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    width: 80px;
+    height: 80px;
+    margin: 0px 50px;
+}
+
+footer img {
+    width: 100%;
+    height: 100%;
+}
